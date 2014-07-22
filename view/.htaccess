@@ -1,0 +1,4 @@
+AuthUserFile /var/www/html/check/view/.htpasswd
+AuthName "Please enter username and password"
+AuthType Basic
+require valid-user

@@ -1,0 +1,6 @@
+Header add Pragma "no-cache"
+Header set Cache-Control no-cache
+
+<IfModule mod_rewrite.c>
+	RewriteEngine off
+</IfModule>
